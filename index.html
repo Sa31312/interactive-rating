@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    :root{
+      --Orange: hsl(25, 97%, 53%);
+      --White: hsl(0, 0%, 100%);
+      --LightGrey: hsl(217, 12%, 63%);
+      --MediumGrey: hsl(216, 12%, 54%);
+      --DarkBlue: hsl(213, 19%, 18%);
+      --VeryDarkBlue: hsl(216, 12%, 8%);
+      
+    }
+    body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: sans-serif;
+      background-color: var(--VeryDarkBlue);
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .container{
+      background-color: var(--DarkBlue);
+      margin-top: 20px;
+      border-radius: 20px;
+    }
+    .container img{
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 100%;
+      background-color: var(--MediumGrey);
+      margin-left: -270px;
+    }
+    .container h1{
+      color: var(--White);
+      font-weight: normal;
+      margin-left: -150px;
+    }
+    .container p{
+      color: var(--MediumGrey);
+      font-size: 15px;
+      width: 350px;
+      text-align: left;
+      margin-left: 42px;
+      line-height: 25px;
+    }
+    .container span{
+      
+      padding: 12px 18px;
+      color: var(--VeryDarkBlue);
+      background-color:var(--LightGrey);
+      border-radius: 100%;
+      font-weight: 400;
+      font-size: 15px;
+      margin: 10px;
+      
+    }
+    .container a{
+      font-size: 15px;
+      text-decoration: none;
+      padding: 10px 140px;
+      /* margin-left: 20px; */
+      color: var(--White);
+      background-color: var(--Orange);
+      border-radius: 20px;
+      margin-bottom: -20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Rating state start -->
+
+  How did we do? 
+  
+
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!
+
+  1 2 3 4 5
+
+  Submit
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+ 
+
+  <!-- Thank you state end -->
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Salman</a>.
+    <div class="container">
+      <img src="../images/icon-star.svg" alt="icon-star"width="20px" height="20px"><br>
+      <h1>How did we do? </h1>
+      <p>Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering! <br><br>
+         <span>1</span>
+         <span>2</span>
+         <span>3</span>
+         <span>4</span>
+         <span>5</span><br><br><br>
+         <a href="../submit.html">Submit</a> <br> <br><br></p>
+    </div>
+  </div>
+</body>
+</html>
